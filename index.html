@@ -773,6 +773,32 @@
             transform: scale(1.15) rotate(10deg);
         }
 
+        .map-container {
+            width: 100%;
+            max-width: 900px;
+            margin: 30px auto;
+            border-radius: 20px;
+            /* Bordes de burbuja */
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            /* Sombra elegante */
+            border: 5px solid #fff;
+            /* Marco blanco */
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+            display: block;
+        }
+
+        .map-section h2 {
+            text-align: center;
+            margin-top: 50px;
+            color: #1c1a17;
+        }
+
         /* Responsive */
         @media (max-width: 992px) {
 
