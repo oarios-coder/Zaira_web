@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dra. Zaira Igarzabal — Abogada</title>
-    <meta name="description"
-        content="Dra. Zaira Igarzabal - Abogada y Auxiliar Inmobiliario. Especialista en Derecho de Familia, Sucesiones, Previsional y ART en Pico Truncado.">
     <!-- Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <style>
         :root {
             /* Palette 60-25-10-5 */
-            --bg-main: #ffebdb;
-            --bg-sec: #fff3f5;
-            --text-main: #1c1a17;
-            --text-sec: #5f5a55;
-            --brand-green: #b2c196;
-            --accent-pink: #fccbd2;
-
+            --bg-main: #ffebdb;    
+            --bg-sec: #fff3f5;     
+            --text-main: #1c1a17;  
+            --text-sec: #5f5a55;   
+            --brand-green: #b2c196; 
+            --accent-pink: #fccbd2; 
+            
             --white: #FFFFFF;
-            --border: rgba(95, 90, 85, 0.15);
-            --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.03);
-            --shadow-hover: 0 15px 40px rgba(252, 203, 210, 0.4);
-            --r-card: 24px;
+            --border: rgba(95, 90, 85, 0.15); 
+            --shadow-soft: 0 10px 30px rgba(0,0,0,0.03); 
+            --shadow-hover: 0 15px 40px rgba(252, 203, 210, 0.4); 
+            --r-card: 24px; 
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
 
@@ -38,9 +33,7 @@
             padding: 0;
         }
 
-        html {
-            scroll-behavior: smooth;
-        }
+        html { scroll-behavior: smooth; }
 
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
@@ -52,10 +45,7 @@
         }
 
         /* Typography */
-        h1,
-        h2,
-        h3,
-        .font-serif {
+        h1, h2, h3, .font-serif {
             font-family: 'Fraunces', serif;
             color: var(--text-main);
         }
@@ -109,7 +99,7 @@
             border-radius: 50%;
             object-fit: cover;
             border: 2px solid var(--white);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
             transition: var(--transition);
         }
 
@@ -192,13 +182,8 @@
         }
 
         @keyframes pulse {
-            0% {
-                transform: scale(1) translate(0, 0);
-            }
-
-            100% {
-                transform: scale(1.1) translate(50px, 50px);
-            }
+            0% { transform: scale(1) translate(0, 0); }
+            100% { transform: scale(1.1) translate(50px, 50px); }
         }
 
         .hero-inner {
@@ -290,13 +275,13 @@
         .btn-secondary {
             background: var(--white);
             color: var(--text-main);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
 
         .btn-secondary:hover {
             color: var(--brand-green);
             transform: translateY(-4px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
         }
 
         /* Hero Image Modern Mask */
@@ -326,19 +311,9 @@
         }
 
         @keyframes morph {
-
-            0%,
-            100% {
-                border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-            }
-
-            34% {
-                border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-            }
-
-            67% {
-                border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
-            }
+            0%, 100% { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
+            34% { border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
+            67% { border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%; }
         }
 
         .hero-visual::after {
@@ -358,15 +333,8 @@
         }
 
         @keyframes pulse-glow {
-            0% {
-                transform: translate(-50%, -50%) scale(0.9);
-                opacity: 0.5;
-            }
-
-            100% {
-                transform: translate(-50%, -50%) scale(1.1);
-                opacity: 0.9;
-            }
+            0% { transform: translate(-50%, -50%) scale(0.9); opacity: 0.5; }
+            100% { transform: translate(-50%, -50%) scale(1.1); opacity: 0.9; }
         }
 
 
@@ -413,7 +381,7 @@
             backdrop-filter: blur(10px);
             border-radius: var(--r-card);
             padding: 40px 30px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.02);
             border: 1px solid var(--white);
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             position: relative;
@@ -428,7 +396,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, var(--white) 0%, rgba(255, 255, 255, 0) 100%);
+            background: linear-gradient(135deg, var(--white) 0%, rgba(255,255,255,0) 100%);
             opacity: 0;
             transition: var(--transition);
             z-index: -1;
@@ -523,7 +491,7 @@
             right: -50px;
             width: 200px;
             height: 200px;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255,255,255,0.1);
             border-radius: 50%;
         }
 
@@ -581,7 +549,7 @@
             background: var(--white);
             border-radius: var(--r-card);
             padding: 40px 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
             transition: var(--transition);
         }
 
@@ -643,7 +611,7 @@
             align-items: center;
             justify-content: center;
             font-size: 24px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
         }
 
         .contact-form-card {
@@ -664,9 +632,7 @@
             margin-bottom: 10px;
         }
 
-        .form-input,
-        .form-select,
-        .form-textarea {
+        .form-input, .form-select, .form-textarea {
             width: 100%;
             padding: 16px 20px;
             border: 2px solid transparent;
@@ -678,9 +644,7 @@
             outline: none;
         }
 
-        .form-input:focus,
-        .form-select:focus,
-        .form-textarea:focus {
+        .form-input:focus, .form-select:focus, .form-textarea:focus {
             border-color: var(--brand-green);
             box-shadow: 0 0 0 5px rgba(178, 193, 150, 0.2);
         }
@@ -747,7 +711,7 @@
             background: var(--white);
             padding: 12px 20px;
             border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
             font-weight: 600;
             font-size: 14px;
             animation: float 3s ease-in-out infinite;
@@ -776,73 +740,39 @@
         }
 
         /* Responsive */
-
-        .map-container {
-            width: 100%;
-            max-width: 900px;
-            margin: 30px auto;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            border: 5px solid #fff;
-        }
-
-        .map-container iframe {
-            width: 100%;
-            height: 450px;
-            border: 0;
-            display: block;
-        }
-
-        .map-section h2 {
-            text-align: center;
-            margin-top: 50px;
-            color: #1c1a17;
-
-            @media (max-width: 992px) {
-
-                .hero-inner,
-                .sobre-grid,
-                .contact-grid {
-                    grid-template-columns: 1fr;
-                    gap: 50px;
-                }
-
-                .hero {
-                    text-align: center;
-                    padding-top: 140px;
-                }
-
-                .hero-actions {
-                    justify-content: center;
-                }
-
-                .nav-links {
-                    display: none;
-                    position: absolute;
-                    top: 100%;
-                    left: 0;
-                    width: 100%;
-                    background: rgba(255, 255, 255, 0.95);
-                    backdrop-filter: blur(10px);
-                    flex-direction: column;
-                    padding: 30px;
-                    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-                }
-
-                .nav-links.active {
-                    display: flex;
-                }
-
-                .hamburger {
-                    display: flex;
-                }
+        @media (max-width: 992px) {
+            .hero-inner, .sobre-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 50px;
             }
-
+            .hero {
+                text-align: center;
+                padding-top: 140px;
+            }
+            .hero-actions {
+                justify-content: center;
+            }
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(255, 255, 255, 0.95);
+                backdrop-filter: blur(10px);
+                flex-direction: column;
+                padding: 30px;
+                box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
         }
     </style>
 </head>
-
 <body>
 
     <!-- Navbar -->
@@ -871,8 +801,7 @@
             <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
                 <div class="hero-tag">Abogada · Pico Truncado, Santa Cruz</div>
                 <h1>Tu derecho,<br>explicado<br><em>de forma clara</em></h1>
-                <p class="hero-desc">Asesoría legal accesible en derecho de familia, alquileres y laboral. Sin letra
-                    chica, sin vueltas — con resultados.</p>
+                <p class="hero-desc">Asesoría legal accesible en derecho de familia, alquileres y laboral. Sin letra chica, sin vueltas — con resultados.</p>
                 <div class="hero-actions">
                     <a href="https://wa.me/542974189481" target="_blank" class="btn btn-primary">Agendar consulta</a>
                     <a href="#servicios" class="btn btn-secondary">Ver servicios →</a>
@@ -886,34 +815,79 @@
         </div>
     </section>
 
-    <div class="services-grid">
-        <div class="service-card">
-            <h3>Derecho de Familia</h3>
-            <p>Alimentos, divorcios, régimen de comunicación y cuidado personal.</p>
+    <!-- Servicios -->
+    <section id="servicios">
+        <div class="section-inner">
+            <div data-aos="fade-up">
+                <div class="section-tag">Servicios Legales</div>
+                <h2 class="section-title">¿En qué puedo ayudarte?</h2>
+                <p class="section-desc">Asesoría integral para familias, inquilinos y trabajadores de Pico Truncado y la región. En lenguaje claro, sin vueltas.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">👨‍👩‍👧</div>
+                    <h3 class="service-title">Derecho de familia</h3>
+                    <p class="service-desc">Asesoramiento y acompañamiento en procesos familiares con empatía y compromiso.</p>
+                    <div class="service-tags">
+                        <span class="stag">Alimentos</span>
+                        <span class="stag">Divorcios</span>
+                        <span class="stag">Régimen de comunicación</span>
+                        <span class="stag">Cuidado personal</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">📜</div>
+                    <h3 class="service-title">Derecho sucesorio</h3>
+                    <p class="service-desc">Gestión integral de sucesiones, garantizando un proceso ordenado y transparente.</p>
+                    <div class="service-tags">
+                        <span class="stag">Sucesiones</span>
+                        <span class="stag">Declaratoria de herederos</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">👴</div>
+                    <h3 class="service-title">Derecho Previsional</h3>
+                    <p class="service-desc">Te ayudo a tramitar tu jubilación o pensión, asegurando que recibas lo que te corresponde.</p>
+                    <div class="service-tags">
+                        <span class="stag">Jubilaciones</span>
+                        <span class="stag">Pensiones</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">🏠</div>
+                    <h3 class="service-title">Administración Inmobiliaria</h3>
+                    <p class="service-desc">Gestión eficiente para propietarios e inquilinos, brindando seguridad y tranquilidad.</p>
+                    <div class="service-tags">
+                        <span class="stag">Gestión de alquileres</span>
+                        <span class="stag">Contratos</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">⛑️</div>
+                    <h3 class="service-title">ART</h3>
+                    <p class="service-desc">Defensa de tus derechos ante accidentes o enfermedades en tu ámbito laboral.</p>
+                    <div class="service-tags">
+                        <span class="stag">Accidentes laborales</span>
+                        <span class="stag">Enfermedades laborales</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">📋</div>
+                    <h3 class="service-title">Veraz</h3>
+                    <p class="service-desc">Soluciones para regularizar tu situación financiera y limpiar tu historial crediticio.</p>
+                    <div class="service-tags">
+                        <span class="stag">Deudas</span>
+                        <span class="stag">Informes</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="service-card">
-            <h3>Derecho Sucesorio</h3>
-            <p>Tramitación integral de sucesiones y herencias.</p>
-        </div>
-        <div class="service-card">
-            <h3>Derecho Previsional</h3>
-            <p>Jubilaciones y pensiones.</p>
-        </div>
-        <div class="service-card">
-            <h3>Administración Inmobiliaria</h3>
-            <p>Gestión de alquileres y contratos.</p>
-        </div>
-        <div class="service-card">
-            <h3>ART</h3>
-            <p>Accidentes y enfermedades laborales.</p>
-        </div>
-        <div class="service-card">
-            <h3>Veraz</h3>
-            <p>Deudas e informes.</p>
-        </div>
-    </div>
-    </div>
-    </div>
     </section>
 
     <!-- Sobre Mí -->
@@ -922,19 +896,15 @@
             <div class="sobre-grid">
                 <div data-aos="zoom-in" data-aos-duration="1000">
                     <div class="sobre-card-main">
-                        <div class="sobre-quote">"El derecho no debería ser un privilegio. Es una herramienta que todos
-                            merecen entender y usar."</div>
+                        <div class="sobre-quote">"El derecho no debería ser un privilegio. Es una herramienta que todos merecen entender y usar."</div>
                         <div>— Dra. Zaira Belén Igarzabal</div>
                     </div>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
                     <div class="section-tag">Sobre mí</div>
                     <h2 class="section-title">Abogada con raíces en Pico Truncado</h2>
-                    <p class="section-desc">Abogada y auxiliar inmobiliario con formación en escribanía. Me especializo
-                        en derecho previsional, derecho de familia, derecho sucesorio, ART. Asimismo brindo
-                        asesoramiento en veraz y gestión de alquileres. Trabajo de manera independiente acompañando en
-                        cada caso con compromiso, responsabilidad y cercanía.</p>
-
+                    <p class="section-desc">Abogada y auxiliar inmobiliario con formación en escribanía. Me especializo en derecho previsional, derecho de familia, derecho sucesorio, ART. Asimismo brindo asesoramiento en veraz y gestión de alquileres. Trabajo de manera independiente acompañando en cada caso con compromiso, responsabilidad y cercanía.</p>
+                    
                     <div class="tray-item">
                         <div class="tray-dot">🎓</div>
                         <div>
@@ -945,7 +915,7 @@
                     <div class="tray-item">
                         <div class="tray-dot">📍</div>
                         <div>
-                            <div class="tray-title">Estudio</div>
+                            <div class="tray-title">Estudio Propio</div>
                             <p>Mariano Moreno 37, Pico Truncado</p>
                         </div>
                     </div>
@@ -961,7 +931,7 @@
                 <div class="section-tag">Cómo Trabajo</div>
                 <h2 class="section-title">Del primer mensaje a la solución</h2>
             </div>
-
+            
             <div class="met-grid">
                 <div class="met-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="met-num">01</div>
@@ -995,7 +965,7 @@
                     <div class="section-tag">Contacto</div>
                     <h2 class="section-title">¿Necesitás asesoramiento?</h2>
                     <p class="section-desc">Escribime por WhatsApp o completá el formulario.</p>
-
+                    
                     <a href="https://wa.me/542974189481" target="_blank" class="contact-item">
                         <div class="contact-icon">💬</div>
                         <div>
@@ -1039,21 +1009,11 @@
                     </div>
                     <div class="form-group">
                         <label class="form-label">Mensaje</label>
-                        <textarea id="w_msj" class="form-textarea" rows="4"
-                            placeholder="Describí tu caso..."></textarea>
+                        <textarea id="w_msj" class="form-textarea" rows="4" placeholder="Describí tu caso..."></textarea>
                     </div>
                     <button class="form-btn" onclick="sendWA()">Enviar por WhatsApp</button>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="map-section">
-        <h2>Nuestra Ubicación</h2>
-        <div class="map-container">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.5258384069334!2d-67.95435069999999!3d-46.7953547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde8a4823b6fe899%3A0xa20e700389b2b13e!2sC.%20Mariano%20Moreno%2037%2C%20Pico%20Truncado%2C%20Santa%20Cruz!5e0!3m2!1ses!2sar!4v1715100000000!5m2!1ses!2sar"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
@@ -1061,19 +1021,17 @@
     <footer>
         <strong>Dra. Zaira Belén Igarzabal</strong>
         <p>Abogada · Mariano Moreno 37, Pico Truncado, Santa Cruz</p>
-        < </p>
+        <p style="margin-top: 10px;">
+            <a href="https://wa.me/542974189481">2974-189481</a> | 
+            <a href="https://instagram.com/abogada_zaira">@abogada_zaira</a>
+        </p>
     </footer>
 
     <!-- WhatsApp Float -->
     <div class="wa-float">
         <div class="wa-bubble">¡Escribime, te asesoro! 👋</div>
         <a href="https://wa.me/542974189481" target="_blank" class="wa-btn">
-            <svg viewBox="0 0 24 24">
-                <path
-                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-                <path
-                    d="M12 0C5.373 0 0 5.373 0 12c0 2.025.507 3.933 1.395 5.608L0 24l6.558-1.374A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.883 0-3.644-.49-5.17-1.348l-.37-.22-3.893.816.826-3.797-.242-.39A9.953 9.953 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
-            </svg>
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.025.507 3.933 1.395 5.608L0 24l6.558-1.374A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.883 0-3.644-.49-5.17-1.348l-.37-.22-3.893.816.826-3.797-.242-.39A9.953 9.953 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
         </a>
     </div>
 
@@ -1112,5 +1070,4 @@
         }
     </script>
 </body>
-
 </html>
