@@ -8,10 +8,13 @@
     <meta name="description"
         content="Dra. Zaira Igarzabal - Abogada y Auxiliar Inmobiliario en Pico Truncado. Especialista en Derecho de Familia, Sucesiones, Previsional y ART. Atencion online y presencial.">
     <!-- Fonts -->
+
+
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
         rel="stylesheet">
-    <!-- AOS CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <style>
@@ -1066,36 +1069,56 @@
                             <strong>Estudio</strong><br>
                             Mariano Moreno 37, Pico Truncado
                         </div>
-                    </div>
-                </div>
 
-                <div class="contact-form-card" data-aos="fade-left">
-                    <h3 class="service-title" style="margin-bottom: 30px;">Enviame tu consulta</h3>
-                    <div class="form-group">
-                        <label class="form-label">Nombre</label>
-                        <input type="text" id="w_nombre" class="form-input" placeholder="Tu nombre">
+                        <a href="https://www.linkedin.com/in/zaira-belén-igarzabal-28a5012b7" target="_blank"
+                            class="contact-item"
+                            style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                            <div>
+                                <strong>LinkedIn</strong><br>
+                                Zaira Belén Igarzabal
+                            </div>
+                        </a>
+
+                        <a href="https://www.tiktok.com/@abogada_zaira" target="_blank" class="contact-item"
+                            style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                            <div class="contact-icon"><i class="fab fa-tiktok"></i></div>
+                            <div>
+                                <strong>TikTok</strong><br>
+                                @abogada_zaira
+                            </div>
+                        </a>
+
+
+                    </div> ```
+
+                    <div class="contact-form-card" data-aos="fade-left">
+                        <h3 class="service-title" style="margin-bottom: 30px;">Enviame tu consulta</h3>
+                        <div class="form-group">
+                            <label class="form-label">Nombre</label>
+                            <input type="text" id="w_nombre" class="form-input" placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Tema de consulta</label>
+                            <select id="w_tema" class="form-select">
+                                <option value="">Seleccioná un área...</option>
+                                <option>Derecho de familia</option>
+                                <option>Derecho sucesorio</option>
+                                <option>Derecho Previsional</option>
+                                <option>Administración Inmobiliaria</option>
+                                <option>ART</option>
+                                <option>Veraz</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Mensaje</label>
+                            <textarea id="w_msj" class="form-textarea" rows="4"
+                                placeholder="Describí tu caso..."></textarea>
+                        </div>
+                        <button class="form-btn" onclick="sendWA()">Enviar por WhatsApp</button>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label">Tema de consulta</label>
-                        <select id="w_tema" class="form-select">
-                            <option value="">Seleccioná un área...</option>
-                            <option>Derecho de familia</option>
-                            <option>Derecho sucesorio</option>
-                            <option>Derecho Previsional</option>
-                            <option>Administración Inmobiliaria</option>
-                            <option>ART</option>
-                            <option>Veraz</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label">Mensaje</label>
-                        <textarea id="w_msj" class="form-textarea" rows="4"
-                            placeholder="Describí tu caso..."></textarea>
-                    </div>
-                    <button class="form-btn" onclick="sendWA()">Enviar por WhatsApp</button>
                 </div>
             </div>
-        </div>
     </section>
     <div class="map-container">
         <iframe title="Mapa con la ubicación del estudio jurídico"
